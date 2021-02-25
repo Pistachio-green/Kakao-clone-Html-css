@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 11000vh;
+  height: 500vh;
 }
 
 #chat-screen .alt-header,
@@ -94,7 +94,7 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  padding: 5px 25px;
+  padding: 5px 30px;
   align-items: center;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
@@ -176,8 +176,8 @@
 }
 
 .reply:focus-within input {
-  width: 97vh;
-  transform: translateX(-10%) translateY(-80px);
+  width: 65vh;
+  transform: translateX(-14%) translateY(-80px);
 }
 
 .reply:focus-within {
